@@ -46,4 +46,24 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+    
+    //local storage test
+    window.localStorage.setItem(
+        "firstName","Martin");
+        
+    window.localStorage.setItem(
+        "lastName","Bindon");
+            
+    window.localStorage.setItem(
+        "telephoneNumber","01234567890");
+        
+    window.localStorage.setItem(
+        "City","Worcester");
+    
+    window.localStorage.setItem(
+        "favouriteColour","Blue");
+        
+    var name = window.localStorage.getItem(
+        "firstName");
+            
 };
