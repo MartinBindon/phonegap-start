@@ -65,7 +65,5 @@ var app = {
         
     var name = window.localStorage.getItem(
         "firstName");
-        
-    window.alert(name);
             
 };
